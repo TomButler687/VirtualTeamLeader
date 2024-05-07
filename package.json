@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.0.55",
+    "@langchain/mongodb": "^0.0.1",
     "@langchain/openai": "^0.0.28",
     "@radix-ui/react-slot": "^1.0.2",
     "ai": "^3.0.23",
@@ -16,8 +18,10 @@
     "clsx": "^2.1.0",
     "langchain": "^0.1.36",
     "lucide-react": "^0.370.0",
+    "mongodb": "^6.6.1",
     "next": "14.2.1",
     "openai": "^4.37.1",
+    "pdf-parse": "^1.1.1",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.2",
