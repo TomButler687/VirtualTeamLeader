@@ -7,7 +7,7 @@ import { MongoClient } from "mongodb";
 import { RunnableSequence } from '@langchain/core/runnables'
 
 
-const uri = process.env.OPEN_AI_KEY!
+const uri = process.env.MONGO_DB_URI!
 
 const TEMPLATE = `This is all in relation to customer travel insurance. We are the insurance provider. You are to give me relevant information from the context passed to you in order for me to answer a customers questions. Take this into consideration when replying. Always give examples and evidence where possible.
 Answer in specific detail instead of general advice.
